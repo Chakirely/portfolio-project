@@ -4,5 +4,5 @@ from django.db import models
 class Job(models.Model):
 	"""docstring for ClassName"""
 	image = models.ImageField(upload_to='images/')
-	summary = models.CharField(max_length=200)
+	summary = models.CharField(max_length=300)
 		
